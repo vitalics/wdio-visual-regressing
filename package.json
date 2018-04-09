@@ -1,0 +1,34 @@
+{
+  "name": "googleauthredirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google.js",
+  "scripts": {
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start",
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vostvesh/googleAuthRedirect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vostvesh/googleAuthRedirect/issues"
+  },
+  "homepage": "https://github.com/vostvesh/googleAuthRedirect#readme",
+  "devDependencies": {
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "jasmine": "^3.1.0",
+    "pngjs2": "^2.0.0",
+    "selenium-standalone": "^6.13.0",
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriver-manager": "^12.0.6"
+  }
+}
